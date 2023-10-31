@@ -17,4 +17,4 @@ Each project has its own directory within this repository.
 5. **Weekly Picking**
 6. **Mini Projects**
 7. **Responsive Portphlio**
-8. **Summer hoidays**
+8. **Summer holidays**

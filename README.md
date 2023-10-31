@@ -2,6 +2,9 @@
 
 This repository houses a collection of web development projects that exclusively utilize HTML and CSS, without any JavaScript. Each project has its own directory within this repository.
 
+This repository features a collection of web development projects. These projects include simple clones of popular websites and responsive layout examples, all built using only HTML and CSS.
+
+
 # Tecnologies Used:
 1. HTML
 2. CSS

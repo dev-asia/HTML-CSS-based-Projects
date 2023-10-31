@@ -1,0 +1,54 @@
+*{
+    font-family:Verdana, sans-serif;
+    margin: 0;
+    padding: 0;  
+    line-height: 1.5;
+  
+}
+header{
+    padding: 65px 0px;
+ 
+    text-align: center;
+    font-size: 34px;
+    background-color: rgba(128, 128, 128,0.1);
+    margin-bottom: 30px;
+}
+header h1{
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.container{
+    display: flex;
+}
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .box1,.box2{
+        flex: 100%;
+
+    }
+}
+.box1{
+flex: 70%;
+padding: 0px 10px;
+}
+.box2{
+    flex: 30%;
+    padding: 0 10px;
+  
+}
+ h2{
+    margin: 10px 0;
+    font-weight:400 ;
+    font-size: 35px;
+}
+ p{
+    margin: 15px 0px;
+    letter-spacing: 1px;
+}
+.content{
+    padding: 0.15px 16px;
+    background-color: rgba(128, 128, 128,0.1);
+}
+

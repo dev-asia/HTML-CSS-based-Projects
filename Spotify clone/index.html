@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="main">
+    <div class="side-bar">
+      <div class="nav">
+        <div class="nav-ops" style="opacity: 1;">
+         <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-ops">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div><!-- end of nav -->
+      <div class="library">   
+        <div class="option"> <!-- option part start-->
+          <div class="nav-ops">
+            <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                <a href="#">Your library</a>
+              </div>
+              <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+              </div>
+        </div> <!-- end of option part of library box -->
+
+          <div class="lib-box">
+            <div class="box">
+            <p class="box-pra1">Creat your first playlist</p>
+            <p class="box-pra2">It's easy we'll help you.</p>
+            <button class="badge">Creat playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-pra1">Let's find some podcasts to follow</p>
+              <p class="box-pra2">We'll keep your updated on new episodes</p>
+              <button class="badge">Creat playlist</button>
+            </div>
+          </div>
+      </div><!-- end of library -->
+    </div><!-- endof side-bar -->
+
+<!-- ********************************************************************** -->
+
+    <div class="main-content">
+      <div class="nav-sticky">
+        <div class="nav-sticky-icon">
+          <i class="fa-solid fa-less-than"></i>
+          <i class="fa-solid fa-greater-than"></i>
+        </div>
+        <div class="nav-sticky-ops">
+          <button class="badge items">Explore Premium</button>
+          <button class="badge dark items"><i class="fa-sharp fa-regular fa-circle-down " style="margin-right: 5px;"></i>Install App</button>
+          <i class="fa-regular fa-user items"></i>
+        </div>
+      </div><!-- end of nav-sticky  -->
+     <!-- Section one -->
+      <h2>Recentaly played</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="card1img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+      </div>
+     <!-- Section two -->
+       <h2>Trending now near you</h2>
+       <div class="card-container">
+        <div class="card">
+          <img src="card2img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="card3img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="card4img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+      </div>
+     <!-- Section three -->
+      <h2>Featured Charts</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="card5img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="card6img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="card1img.jpeg" alt="img" class="box-img">
+          <p class="card-title"> Top 50-Global</p>
+          <p class="card-text">Your daily updates of the most played...</p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="line"></div>
+      </div>
+    </div><!-- end of main-content -->
+
+      <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+    <div class="music">
+      <div class="album">  <!-- album -->
+        <img src="img.jpeg" alt="#" class="imge margin">
+        <div class="pry margin">
+          <p class="Daylight ">Daylight</p>
+          <p class="David ">David Kushner</p>
+        </div>
+        <i class="fa-regular fa-heart margin"></i>
+        <i class="fa-solid fa-laptop margin"></i>
+      </div>
+  
+      <!-- player -->
+      <div class="player">
+        <div class="player-icon">
+          <img src="player_icon1.png" alt="icon" class="icn">
+          <img src="player_icon2.png" alt="icon" class="icn">
+          <img src="player_icon3.png" alt="icon" class="icn" style="opacity: 1; height: 2rem;">
+          <img src="player_icon4.png" alt="icon" class="icn">
+          <img src="player_icon5.png" alt="icon" class="icn">
+        </div>
+        <div class="player-control">
+          <span>00:00</span>
+          <input type="range" min="0" max="100" step="2" class="cntrl volume">
+          <span>05:00</span>
+        </div>
+      </div>
+      <!-- control -->
+      <div class="control">
+        <img src="play.jpg" alt="#" class="mrgn">
+        <img src="mic.jpg" alt="mic" class="mrgn">
+        <i class="fa-solid fa-bars bar mrgn" ></i>
+        <i class="fa-solid fa-laptop-file bar mrgn" ></i>
+        <div class="mrgn rag" style="opacity: 1;">
+          <i class="fa-solid fa-volume-high bar"></i>
+          <input type="range" min="0" max="100" class="inpt volume">
+        </div>
+    
+      </div> <!-- end fo control -->
+    </div><!-- end of music -->
+
+  </div><!-- end of main -->
+
+</body>
+</html>

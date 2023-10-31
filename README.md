@@ -14,7 +14,12 @@ Each project has its own directory within this repository.
 2. **Spotify Clone**
 3. **Deadline Clone**
 4. **Blog Clone**
-5. **Weekly Picking**
-6. **Mini Projects**
+5. **Responsive Weekly Picking**
+6. **Mini Project**
 7. **Responsive Portphlio**
 8. **Summer holidays**
+
+## About the Author
+
+I'm a web development enthusiast currently studying web development. I enjoy creating websites with HTML and CSS. If you'd like to connect or have questions, don't hesitate to reach out.
+

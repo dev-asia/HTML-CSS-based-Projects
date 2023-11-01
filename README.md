@@ -18,6 +18,7 @@ Each project has its own directory within this repository.
 6. **Mini Project**
 7. **Responsive Portphlio**
 8. **Summer holidays**
+9. **Grid layout Project**
 
 ## About the Author
 

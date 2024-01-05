@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;0,500;0,900;1,500&family=Inter&family=Raleway:wght@400;500&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700;1,900&family=Space+Grotesk&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+} */
+.section p{
+    margin: 0;
+}
+.fix{
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 0px 0 2px black;
+    border-radius: 7px;
+    position: absolute;
+    top: 26%;
+    right: 12%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.fix h3{
+    margin: 0 0 20px 0;
+}
+.section{
+    display: flex;
+    justify-content:space-between ;
+}
+.box-one{
+   background-color:lightblue;
+   height: 57vh;
+   width: 80vh;
+   border-bottom-right-radius:20px ;
+   padding: 70px;
+}
+.content{
+   margin-top: 70px;
+    width: 57%;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+input{
+   width: 25px;
+   height: 15px;
+}
+.prent-hight, .prent-width{
+    width: 100%;
+}
+.section p{
+    margin-left: 10px;
+}
+
+.one-lab,.two-lab, .width, .hight{
+    width: 55%;
+    margin:5px 10px ;
+}
+.hight, .width{
+display: flex;
+justify-content: space-between;
+box-shadow: 0px 0 2px  black;
+padding: 10px;
+}
+
+#blue{
+    color: #0062Ff;
+    font-weight: 900;
+}
+.end{
+   background-color: rgb(0, 98, 255);
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-top-right-radius: 100px;
+   border-bottom-right-radius: 100px;
+   padding:0 20px;
+   color: white;
+}
+
+ p{
+    line-height: 1.5;
+}
+    /*Box Two  */
+.part-two{
+    padding: 70px;
+
+}
+.box-two{
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px 0px ;
+}    
+.pic, .BMI{
+  flex: 1;
+  padding:0px 40px;
+  margin: 20px;
+}
+.pic{
+    background-color: skyblue;
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+.girl{
+    position: absolute;
+    left: 15%;
+    bottom: -20%;
+}
+.BMI h2{
+font-size: 35px;
+}
+.box{
+    margin: 8px;
+    flex: 1;
+}
+.box p{
+    font-size: 14px;
+}
+.Boxs{
+    background-color: whitesmoke;
+}
+svg{
+    width: 74px;
+}
+/* Box Three */
+.limtation h2{
+    font-size: 33px;
+}
+.box-limt{
+display: flex;
+gap: 35px;
+}
+.limtation{
+    width: 50%;
+}
+.gender{
+   width: 40%;
+   padding:10px ;
+}
+.inner-content{
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px black;
+    padding: 20px;
+}
+.div-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.small-icon{
+    height: 38px;
+    width: 38px;
+}
+/* box four */
+.box-four{
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+}
+.age{
+    width: 30%;
+    margin:30px 2px 2px 0;
+}
+.muscls{
+    width: 30%;
+    margin:30px 2px 2px 0;
+}
+/* box five */
+.box-five{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}

@@ -12,13 +12,16 @@ Each project has its own directory within this repository.
 ## Projects
 1. **Amazon Clone**
 2. **Spotify Clone**
-3. **Deadline Clone**
+3. **Airtel Clone**
 4. **Blog Clone**
 5. **Responsive Weekly Picking**
 6. **Mini Project**
 7. **Responsive Portphlio**
 8. **Summer holidays**
 9. **Grid layout Projects**
+10.  **Deadline Clone**
+11.  **Body Mass**
+    
 
 ## About the Author
 

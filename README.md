@@ -23,7 +23,3 @@ Each project has its own directory within this repository.
 11.  **Body Mass**
     
 
-## About the Author
-
-I'm a web development enthusiast currently studying web development. I enjoy creating websites with HTML and CSS. If you'd like to connect or have questions, don't hesitate to reach out.
-
